@@ -3752,13 +3752,6 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
-  background-image: linear-gradient(transparent 17%, white 80%),
-                    linear-gradient(to right, #e8e004 0% 15%, transparent 15% 20%,
-                                              #b746aa 20% 35%, transparent 35% 40%,
-                                              #4cc070 40% 55%, transparent 55% 60%,
-                                              #f46a1e 60% 75%, transparent 75% 80%,
-                                              #ed1c24 80% 95%, transparent 95% 100%);
-  background-size: 300px 300px;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -8169,6 +8162,17 @@ textarea.form-control-lg {
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-dorfbraeu-colors {
+  --bs-bg-opacity: 1;
+  background-image: linear-gradient(transparent 17%, white 80%),
+                    linear-gradient(to right, #e8e004 0% 15%, transparent 15% 20%,
+                                              #b746aa 20% 35%, transparent 35% 40%,
+                                              #4cc070 40% 55%, transparent 55% 60%,
+                                              #f46a1e 60% 75%, transparent 75% 80%,
+                                              #ed1c24 80% 95%, transparent 95% 100%);
+  background-size: 300px 300px;
 }
 
 .bg-black {
