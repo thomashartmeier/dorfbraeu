@@ -2861,9 +2861,8 @@ textarea.form-control-lg {
 }
 
 .btn-secondary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #6c757d;
-  --bs-btn-border-color: #6c757d;
+  --bs-btn-color: #000;
+  --bs-btn-bg: #fff;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #5c636a;
   --bs-btn-hover-border-color: #565e64;
@@ -3728,7 +3727,7 @@ textarea.form-control-lg {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: rgba(0, 0, 0, 0.55);
+  --bs-navbar-color: black;
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
@@ -4463,6 +4462,18 @@ textarea.form-control-lg {
 }
 .accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
   border-radius: 0;
+}
+
+.triangle-isosceles {
+  position:relative;
+  padding:15px;
+  margin:1em 0 3em;
+  color:#000;
+  background:white; /* default background for browsers without gradient support */
+  /* css3 */
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
 }
 
 .breadcrumb {
@@ -7786,6 +7797,12 @@ textarea.form-control-lg {
   padding-bottom: 3rem !important;
 }
 
+.ourbeers {
+  background-color: #293133;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
 .pt-0 {
   padding-top: 0 !important;
 }
@@ -8162,6 +8179,26 @@ textarea.form-control-lg {
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-freakycraft {
+  background-color: #ed1c24;
+}
+
+.bg-lovelyamber {
+  background-color: #f46a1e;
+}
+
+.bg-hellesmais {
+  background-color: #e8e004;
+}
+
+.bg-funkyipa {
+  background-color: #4cc070;
+}
+
+.bg-vollesdinkel {
+  background-color: #b746aa;
 }
 
 .bg-dorfbraeu-colors {
@@ -9815,6 +9852,12 @@ textarea.form-control-lg {
   }
   .d-xl-block {
     display: block !important;
+  }
+  .moving-left:hover
+  {
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+    transform: translateY(-30px) rotate(10deg) scale(1.5);
   }
   .d-xl-grid {
     display: grid !important;
