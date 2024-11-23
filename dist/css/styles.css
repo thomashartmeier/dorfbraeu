@@ -8207,6 +8207,10 @@ textarea.form-control-lg {
   background-color: #b746aa;
 }
 
+.bg-barleywine {
+  background-color: #3d5588;
+}
+
 .bg-dorfbraeu-colors {
   --bs-bg-opacity: 1;
   background-image: linear-gradient(transparent 17%, white 80%),
