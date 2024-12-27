@@ -4500,6 +4500,14 @@ textarea.form-control-lg {
   border-radius: var(--bs-breadcrumb-border-radius);
 }
 
+.banner{
+  position:relative;
+  top: 50px;
+  transform: rotate(10deg) scale(1.5);
+  padding: 10px;
+  color: white;
+}
+
 .breadcrumb-item + .breadcrumb-item {
   padding-left: var(--bs-breadcrumb-item-padding-x);
 }
